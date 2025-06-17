@@ -146,8 +146,8 @@ Make sure your `.gitignore` includes:
 
 ## 👨‍💻 Author
 
-Built by \[Your Name]
-GitHub: [https://github.com/YOUR\_USERNAME](https://github.com/YOUR_USERNAME)
+Built by \Konadu Prince
+GitHub: [https://github.com/Konadu-Prince](https://github.com/Konadu-Prince)
 
 ---
 
