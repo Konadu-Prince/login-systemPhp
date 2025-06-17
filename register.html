@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - SecureApp</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <!-- ✅ Navigation Bar -->
+  <nav>
+    <section onclick="goHome()">🏠 Home</section>
+    <section onclick="alert('Contact us at contact@example.com')">📞 Contact</section>
+    <section onclick="window.location.href='index.html'">🔐 Login</section>
+  </nav>
+
+  <!-- ✅ Registration Form -->
+  <h2>Create Your Account</h2>
+  <form method="post" action="register.php">
+    <label for="username">Username</label>
+    <input type="text" name="username" id="username" required>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+
+    <button type="submit">Register</button>
+  </form>
+
+  <!-- ✅ Footer -->
+  <footer>
+    <p>&copy; 2025 SecureApp. All rights reserved.</p>
+  </footer>
+
+  <!-- ✅ Optional Script -->
+  <script>
+    function goHome() {
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
