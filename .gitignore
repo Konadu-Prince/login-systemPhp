@@ -1,0 +1,27 @@
+#  System/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+#  Security/Secrets
+.env
+*.key
+*.pem
+
+#  Logs and temp files
+*.log
+*.bak
+*.tmp
+
+# Dependency folders (if you're using Composer or Node.js)
+vendor/
+node_modules/
+
+# Database dumps or SQLite files
+*.sql
+*.sqlite
+
+#  Cache
+cache/
+*.cache
